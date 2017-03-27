@@ -40,7 +40,8 @@ var stateHandlers = {
             var randomColorIndex = Math.floor(Math.random() * 3);
             this.attributes["computedPattern"] = this.attributes["computedPattern"].push(colors[randomColorIndex]);
 
-            this.response.listen(this.attributes["computedPattern"].join(','));
+            var responseMessage = strings.game_start_message + this.attributes["computedPattern"].join(',');
+            this.response.listen(responseMessage);
             this.emit(":responseReady");
         }
     })
