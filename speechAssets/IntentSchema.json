@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "intent": "ColorMatchGame"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "ColorMatchGameWin"
+    },
+    {
+      "intent": "ColorMatchGameLose"
+    },
+    {
+      "intent": "ColorMatchGameStart"
+    },
+    {
+      "intent": "ColorMatchGameNewColor"
+    },
+    {
+      "intent": "ColorMatchGameGuess",
+      "slots": [
+        {
+          "name": "color",
+          "type": "AMAZON.Color"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    }
+  ]
+}

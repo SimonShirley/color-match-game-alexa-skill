@@ -1,0 +1,3 @@
+ColorMatchGame to play a new game
+ColorMatchGame to play
+ColorMatchGameGuess {color}
